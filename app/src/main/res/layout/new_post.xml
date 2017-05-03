@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="70dp"
+    android:paddingRight="70dp"
+    android:paddingTop="50dp"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Įrašo įtraukimas"
+        android:layout_weight="0.03" />
+
+    <Spinner
+        android:id="@+id/tipas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/type"
+        android:prompt="@string/tipas" />
+
+    <EditText
+        android:id="@+id/kiekis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kiekis" >
+         <requestFocus/>
+    </EditText>
+
+    <Spinner
+        android:id="@+id/uzsakymai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/orders"
+        android:prompt="@string/uzsakymai" />
+
+    <EditText
+        android:id="@+id/kaina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kaina" >
+        <requestFocus/>
+    </EditText>
+
+    <Spinner
+        android:id="@+id/technika"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/technique"
+        android:prompt="@string/technika"/>
+
+    <EditText
+        android:id="@+id/ilgis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ilgis">
+        <requestFocus/>
+    </EditText>
+
+    <EditText
+        android:id="@+id/plotis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Plotis">
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:id="@+id/reguliavimas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/length"
+        android:prompt="@string/reguliavimas"/>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pridėti įrašą"
+        android:onClick="CreatePost"/>
+</LinearLayout>

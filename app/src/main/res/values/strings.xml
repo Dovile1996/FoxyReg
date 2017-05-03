@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Foxy">Foxy</string>
+    <string name="tipas">Pasirinkite tipą</string>
+    <string-array name="type">
+        <item>Sapnų Gaudyklė</item>
+        <item>Apyrankė</item>
+        <item>Grandinelė</item>
+        <item>Auskarai</item>
+        <item>Migdukas</item>
+    </string-array>
+    <string name="uzsakymai">Individualūs užsakymai</string>
+    <string-array name="orders">
+        <item>Priimami</item>
+        <item>Nepriimami</item>
+    </string-array>
+    <string name="technika">Techika</string>
+    <string-array name="technique">
+        <item>Nertas gaudyklės centras</item>
+        <item>Pintas gaudyklės centras</item>
+        <item>Macrame apyrankė</item>
+        <item>Loom apyrankė</item>
+        <item>Shamballa apyrankė</item>
+        <item>Friendsip apyrankė</item>
+        <item>Kumihimo apyrankė</item>
+        <item>Žgutinė apyrankė</item>
+        <item>Sutažo apyrankė</item>
+        <item>Grandinėlė su akmenukais</item>
+        <item>Grandinėlė su pakabuku</item>
+        <item>Grandinėlė su kutuku</item>
+        <item>Grandinėlė su karoliukų pakabuku</item>
+        <item>Žgutinė grandinėlė</item>
+        <item>Chokeris</item>
+        <item>Sutažo vėrinys</item>
+        <item>Sutažo auskarai</item>
+        <item>Auskarai su kutukais</item>
+        <item>Kabantys auskarai</item>
+        <item>Minimalistiniai auskrai</item>
+        <item>Siųtas migdukas</item>
+        <item>Nertas migdukas</item>
+    </string-array>
+    <string name="reguliavimas">Reguliavimas</string>
+    <string-array name="length">
+        <item>Yra</item>
+        <item>Nėra</item>
+    </string-array>
+</resources>
